@@ -1,5 +1,150 @@
 [
   {
+    "slug": "aliexpress-product-scraper",
+    "name": "AliExpress Product Scraper — Prices, Orders & Suppliers",
+    "category": "E-Commerce",
+    "badge": "Top Seller",
+    "price": "$0.002 / product",
+    "pricePer1k": "$2.00 / 1k",
+    "description": "HTTP-first AliExpress product scraper. Extract product prices, discount tiers, sold order counts, star ratings, shipping costs, and supplier store metrics.",
+    "tags": [
+      "AliExpress",
+      "Dropshipping",
+      "E-Commerce",
+      "Product Research"
+    ],
+    "features": [
+      "Sold order volume tracking",
+      "Supplier feedback score",
+      "Discount & margin math",
+      "Cookie-free HTTP speed"
+    ],
+    "sampleOutput": {
+      "productId": "1005006824910000",
+      "title": "Wireless Mechanical Keyboard — Pro Tri-Mode Bluetooth 5.1 / 2.4GHz",
+      "salePriceUsd": 28.4,
+      "originalPriceUsd": 64.99,
+      "ordersCount": 4280,
+      "rating": 4.9,
+      "storeName": "Shenzhen KeyTech Official Store"
+    }
+  },
+  {
+    "slug": "linkedin-company-employees-scraper",
+    "name": "LinkedIn Company Employees & People Scraper (No Cookies)",
+    "category": "B2B & Leads",
+    "badge": "No Cookies",
+    "price": "$0.004 / profile",
+    "pricePer1k": "$4.00 / 1k",
+    "description": "Extract public company employees, VP/Director decision-makers, job titles, locations, and verified work email patterns without LinkedIn cookies or login.",
+    "tags": [
+      "LinkedIn",
+      "B2B Leads",
+      "No Cookies",
+      "Work Emails"
+    ],
+    "features": [
+      "100% Cookie-free safety",
+      "VP & Head seniority filter",
+      "Corporate email pattern",
+      "Instant Clay/CRM export"
+    ],
+    "sampleOutput": {
+      "fullName": "Marcus Vance",
+      "jobTitle": "VP of Engineering",
+      "companyName": "Stripe",
+      "seniority": "VP / Executive",
+      "workEmailPattern": "marcus.vance@stripe.com",
+      "location": "San Francisco, CA"
+    }
+  },
+  {
+    "slug": "indiamart-supplier-scraper",
+    "name": "IndiaMART Supplier Scraper — B2B Products & Contacts",
+    "category": "B2B & Leads",
+    "badge": "B2B Wholesale",
+    "price": "$0.003 / supplier",
+    "pricePer1k": "$3.00 / 1k",
+    "description": "Scrape verified B2B manufacturers, exporters, and wholesalers from IndiaMART. Extract MOQ pricing, GST verification status, TrustSEAL badges, and city hubs.",
+    "tags": [
+      "IndiaMART",
+      "B2B Suppliers",
+      "Wholesale",
+      "Manufacturing"
+    ],
+    "features": [
+      "TrustSEAL & GST verification",
+      "MOQ & wholesale pricing",
+      "City & industrial hub filter",
+      "Buyer response rate"
+    ],
+    "sampleOutput": {
+      "supplierName": "Shree Balaji Industrial Enterprises Pvt. Ltd.",
+      "wholesalePriceInr": "₹ 18.50 / Piece",
+      "minOrderQty": "500 Pieces",
+      "city": "Gurugram, Haryana",
+      "trustSealVerified": true,
+      "gstVerified": true
+    }
+  },
+  {
+    "slug": "facebook-ads-library-scraper",
+    "name": "Facebook Ad Library Scraper — Competitor Ads & CTAs",
+    "category": "SEO & Marketing",
+    "badge": "Ad Spy",
+    "price": "$0.003 / ad",
+    "pricePer1k": "$3.00 / 1k",
+    "description": "Scrape active and historical ads from the Meta / Facebook Ad Library. Extract ad copy, headlines, CTA buttons, landing page URLs, and active longevity.",
+    "tags": [
+      "Meta Ads",
+      "Facebook Ads",
+      "Ad Spy",
+      "Competitor Intel"
+    ],
+    "features": [
+      "Evergreen winning ad detection",
+      "Full ad copy & headline",
+      "Destination URL & UTM tags",
+      "Video & carousel formats"
+    ],
+    "sampleOutput": {
+      "adArchiveId": "948271645000000",
+      "pageName": "Linear",
+      "creativeAngle": "Social Proof + Time Saved Hook",
+      "ctaType": "Sign Up",
+      "activeDays": 84,
+      "isWinningEvergreenAd": true
+    }
+  },
+  {
+    "slug": "pinterest-scraper",
+    "name": "Pinterest Scraper & Monitor — Pins, Saves & Boards",
+    "category": "Social & Creator",
+    "badge": "Visual Trends",
+    "price": "$0.002 / pin",
+    "pricePer1k": "$2.00 / 1k",
+    "description": "Extract trending Pinterest Pins, board metrics, save counts, dominant color hexes, creator profiles, and outbound e-commerce links for visual trend discovery.",
+    "tags": [
+      "Pinterest",
+      "Visual Trends",
+      "E-Commerce",
+      "Moodboards"
+    ],
+    "features": [
+      "Save & repin velocity",
+      "Outbound store URL extraction",
+      "Dominant hex color palette",
+      "Viral top 1% tiering"
+    ],
+    "sampleOutput": {
+      "pinId": "819204756100000000",
+      "title": "Minimalist Dark Desk Setup — 2026 Aesthetic Inspiration",
+      "savesCount": 14820,
+      "viralityTier": "VIRAL_TOP_1_PCT",
+      "dominantColorHex": "#1A1C1E"
+    }
+  },
+  {
     "slug": "lead-scraper",
     "name": "B2B Business & Contact Lead Scraper",
     "category": "B2B & Leads",
